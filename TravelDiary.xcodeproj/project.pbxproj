@@ -17,6 +17,7 @@
 		ED9483EE282D5FD40026E204 /* JournalEntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483ED282D5FD40026E204 /* JournalEntryListTableViewController.swift */; };
 		ED9483F0282D602E0026E204 /* JournalEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483EF282D602E0026E204 /* JournalEntryDetailViewController.swift */; };
 		ED9483F3282D646B0026E204 /* JournalEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */; };
+		ED9483F5282D6B740026E204 /* JournalEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483F4282D6B740026E204 /* JournalEntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ED9483ED282D5FD40026E204 /* JournalEntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryListTableViewController.swift; sourceTree = "<group>"; };
 		ED9483EF282D602E0026E204 /* JournalEntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailViewController.swift; sourceTree = "<group>"; };
 		ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTableViewCell.swift; sourceTree = "<group>"; };
+		ED9483F4282D6B740026E204 /* JournalEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9483EC282D5F600026E204 /* ViewControllers */,
+				ED9483F4282D6B740026E204 /* JournalEntryController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9483F5282D6B740026E204 /* JournalEntryController.swift in Sources */,
 				413AA7F12724B792008D6631 /* AppDelegate.swift in Sources */,
 				413AA7F32724B792008D6631 /* SceneDelegate.swift in Sources */,
 				ED9483F0282D602E0026E204 /* JournalEntryDetailViewController.swift in Sources */,

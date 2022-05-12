@@ -24,8 +24,19 @@ class JournalEntry {
         /// Self references the specific instance of the Journal entry
         self.title = title
         self.address = address
-        self.timeStamp = entryDate
+        self.timeStamp = timeStamp
         self.summary = summary
     }
         
 }// end of class
+
+extension JournalEntry: Equatable {
+    static func == (lhs: JournalEntry, rhs: JournalEntry) -> Bool {
+        return lhs.title == rhs.title &&
+        lhs.address == rhs.address &&
+        lhs.summary == rhs.summary &&
+        lhs.timeStamp == rhs.timeStamp
+    }
+    
+    
+}
