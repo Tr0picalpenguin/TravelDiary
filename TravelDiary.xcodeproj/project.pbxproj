@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9483EC282D5F600026E204 /* ViewControllers */,
-				ED9483F4282D6B740026E204 /* JournalEntryController.swift */,
+				ED9483F7282D759F0026E204 /* ModelController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,6 +136,14 @@
 				ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */,
 			);
 			path = Subviews;
+			sourceTree = "<group>";
+		};
+		ED9483F7282D759F0026E204 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				ED9483F4282D6B740026E204 /* JournalEntryController.swift */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

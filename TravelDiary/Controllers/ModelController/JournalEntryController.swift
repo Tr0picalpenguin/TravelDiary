@@ -7,12 +7,12 @@
 
 import Foundation
 
-class journalEntryController {
+class JournalEntryController {
     
     //MARK: - Source of Truth
     
     // singleton
-    static let sharedInstance = journalEntryController()
+    static let sharedInstance = JournalEntryController()
     
     // collection
     var journalEntries: [JournalEntry] = []

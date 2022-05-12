@@ -9,9 +9,14 @@ import UIKit
 
 class JournalEntryTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var journalEntryNameLabel: UILabel!
+    @IBOutlet weak var journalEntryTitleLabel: UILabel!
     @IBOutlet weak var journalEntryAdressLabel: UILabel!
     @IBOutlet weak var journalEntryDateLabel: UILabel!
     
-   
+    func undateView(for journalEntry: JournalEntry) {
+        journalEntryTitleLabel.text = journalEntry.title
+        journalEntryAdressLabel.text = journalEntry.address
+        journalEntryDateLabel.text = journalEntry.timeStamp.stringValue()
+        
+    }
 } // End of class
