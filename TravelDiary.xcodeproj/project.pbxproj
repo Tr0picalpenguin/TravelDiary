@@ -14,6 +14,9 @@
 		413AA7FD2724B794008D6631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413AA7FB2724B794008D6631 /* LaunchScreen.storyboard */; };
 		413AA81527273B77008D6631 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413AA81427273B77008D6631 /* DateHelper.swift */; };
 		ED9483EA282D57BC0026E204 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483E9282D57BC0026E204 /* JournalEntry.swift */; };
+		ED9483EE282D5FD40026E204 /* JournalEntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483ED282D5FD40026E204 /* JournalEntryListTableViewController.swift */; };
+		ED9483F0282D602E0026E204 /* JournalEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483EF282D602E0026E204 /* JournalEntryDetailViewController.swift */; };
+		ED9483F3282D646B0026E204 /* JournalEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		413AA7FE2724B794008D6631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413AA81427273B77008D6631 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		ED9483E9282D57BC0026E204 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		ED9483ED282D5FD40026E204 /* JournalEntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryListTableViewController.swift; sourceTree = "<group>"; };
+		ED9483EF282D602E0026E204 /* JournalEntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailViewController.swift; sourceTree = "<group>"; };
+		ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		413AA7EF2724B792008D6631 /* TravelDiary */ = {
 			isa = PBXGroup;
 			children = (
+				ED9483EB282D5F4C0026E204 /* Controllers */,
 				ED9483E8282D56EA0026E204 /* Model */,
 				413AA81327273B5A008D6631 /* Helper Files */,
 				413AA80527271158008D6631 /* Resources */,
@@ -100,6 +107,32 @@
 				ED9483E9282D57BC0026E204 /* JournalEntry.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ED9483EB282D5F4C0026E204 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED9483EC282D5F600026E204 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED9483EC282D5F600026E204 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED9483F1282D64180026E204 /* Subviews */,
+				ED9483ED282D5FD40026E204 /* JournalEntryListTableViewController.swift */,
+				ED9483EF282D602E0026E204 /* JournalEntryDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED9483F1282D64180026E204 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				ED9483F2282D646B0026E204 /* JournalEntryTableViewCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +208,10 @@
 			files = (
 				413AA7F12724B792008D6631 /* AppDelegate.swift in Sources */,
 				413AA7F32724B792008D6631 /* SceneDelegate.swift in Sources */,
+				ED9483F0282D602E0026E204 /* JournalEntryDetailViewController.swift in Sources */,
+				ED9483EE282D5FD40026E204 /* JournalEntryListTableViewController.swift in Sources */,
 				ED9483EA282D57BC0026E204 /* JournalEntry.swift in Sources */,
+				ED9483F3282D646B0026E204 /* JournalEntryTableViewCell.swift in Sources */,
 				413AA81527273B77008D6631 /* DateHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
